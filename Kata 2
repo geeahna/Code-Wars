@@ -1,0 +1,16 @@
+def are_you_playing_banjo(name):
+    if name.find('r') == 0 or name.find('R') == 0:
+        return name + " plays banjo"
+    else:
+        return name + " does not play banjo"
+
+#note to self: there's a much easier method lol use startswith next time. but yay to me for creative solution! lol
+"""KATA: Are you playing a banjo? Passed all tests
+Create a function which answers the question "Are you playing banjo?".
+If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+The function takes a name as its only argument, and returns one of the following strings:
+
+name + " plays banjo" 
+name + " does not play banjo"
+Names given are always valid strings."""
